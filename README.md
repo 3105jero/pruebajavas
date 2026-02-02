@@ -1,4 +1,4 @@
-# CRUDTASK - Sistema de Gestión de Tareas Académicas
+# CRUDZASO - Sistema de Gestión de Tareas Académicas
 
 ## Descripción
 
@@ -80,7 +80,7 @@ Ahora puedes abrir el archivo `login.html` en tu navegador.
 ## 📂 Estructura del Proyecto
 
 ```
-crudtask/
+crudzaso/
 │
 ├── css/
 │   └── styles.css          # Estilos personalizados
