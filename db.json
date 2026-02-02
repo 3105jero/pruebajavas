@@ -23,6 +23,14 @@
       "email": "prueba2@prueba.com",
       "password": "123456",
       "role": "user"
+    },
+    {
+      "id": "d63f",
+      "fullName": "lol que mal",
+      "username": "jix",
+      "email": "jix@nose.com",
+      "password": "123",
+      "role": "user"
     }
   ],
   "tasks": [
@@ -30,8 +38,8 @@
       "id": "1",
       "title": "Estudiar JavaScript",
       "description": "Completar módulo 3 del curso jejeje pues ya estudiaste\n",
-      "status": "pending",
-      "userId": 2,
+      "status": "completed",
+      "userId": "2",
       "createdAt": "2026-02-01"
     },
     {
