@@ -1,0 +1,75 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Ajustes para que el login se vea centrado verticalmente */
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+/* Estilo para las tarjetas de tareas */
+.task-card {
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.task-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Badges de estado personalizados */
+.badge-pending {
+    background-color: #ffc107;
+    color: #000;
+}
+
+.badge-progress {
+    background-color: #0dcaf0;
+    color: #000;
+}
+
+.badge-completed {
+    background-color: #198754;
+    color: #fff;
+}
+
+/* Animación para mensajes */
+.alert {
+    animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Estilo para botones de acción */
+.btn-action {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+}
+
+/* Mejora visual para tablas */
+.table thead th {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+}
+
+/* Card mejorada */
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.card-header {
+    border-radius: 10px 10px 0 0 !important;
+}

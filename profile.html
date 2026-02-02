@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUDTASK - Mi Perfil</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-light">
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="#">CRUDTASK</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="tasks.html">Mis Tareas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="profile.html">Mi Perfil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="logoutBtn">Cerrar Sesión</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenido principal -->
+    <div class="container mt-4">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <!-- Título -->
+                <h2 class="fw-bold mb-4">Mi Perfil</h2>
+
+                <!-- Tarjeta de información del usuario -->
+                <div class="card shadow-sm mb-4">
+                    <div class="card-body p-4">
+                        <div class="text-center mb-4">
+                            <div class="bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 100px; height: 100px; font-size: 2.5rem;">
+                                <span id="userInitials">U</span>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col-md-4 text-muted">Nombre Completo:</div>
+                            <div class="col-md-8 fw-bold" id="userFullName">-</div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col-md-4 text-muted">Usuario:</div>
+                            <div class="col-md-8 fw-bold" id="userUsername">-</div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col-md-4 text-muted">Correo Electrónico:</div>
+                            <div class="col-md-8 fw-bold" id="userEmail">-</div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col-md-4 text-muted">Rol:</div>
+                            <div class="col-md-8">
+                                <span class="badge bg-info" id="userRole">-</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Estadísticas del usuario -->
+                <div class="card shadow-sm">
+                    <div class="card-body p-4">
+                        <h5 class="fw-bold mb-4">Mis Estadísticas</h5>
+                        
+                        <div class="row text-center">
+                            <div class="col-4">
+                                <div class="p-3 bg-light rounded">
+                                    <h3 class="fw-bold text-primary mb-0" id="totalTasks">0</h3>
+                                    <p class="text-muted mb-0 small">Total de Tareas</p>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="p-3 bg-light rounded">
+                                    <h3 class="fw-bold text-warning mb-0" id="pendingTasks">0</h3>
+                                    <p class="text-muted mb-0 small">Pendientes</p>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="p-3 bg-light rounded">
+                                    <h3 class="fw-bold text-success mb-0" id="completedTasks">0</h3>
+                                    <p class="text-muted mb-0 small">Completadas</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/profile.js"></script>
+</body>
+</html>

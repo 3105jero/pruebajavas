@@ -1,0 +1,62 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "email": "admin@prueba.com",
+      "password": "123",
+      "role": "admin",
+      "fullName": "Administrador del Sistema"
+    },
+    {
+      "id": "2",
+      "username": "Pedrito",
+      "email": "pedrito@prueba.com",
+      "password": "123",
+      "role": "user",
+      "fullName": "pedrito"
+    },
+    {
+      "id": "d191",
+      "fullName": "lukita",
+      "username": "modric",
+      "email": "prueba2@prueba.com",
+      "password": "123456",
+      "role": "user"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Estudiar JavaScript",
+      "description": "Completar módulo 3 del curso jejeje pues ya estudiaste\n",
+      "status": "pending",
+      "userId": 2,
+      "createdAt": "2026-02-01"
+    },
+    {
+      "id": "fc4d",
+      "title": "prueba tarea",
+      "description": "debe cambiar id",
+      "status": "completed",
+      "userId": "d191",
+      "createdAt": "2026-02-02"
+    },
+    {
+      "id": "f898",
+      "title": "prueba",
+      "description": "2",
+      "status": "pending",
+      "userId": "2",
+      "createdAt": "2026-02-02"
+    },
+    {
+      "id": "3f77",
+      "title": "prueba3",
+      "description": "2+1",
+      "status": "in progress",
+      "userId": "2",
+      "createdAt": "2026-02-02"
+    }
+  ]
+}
